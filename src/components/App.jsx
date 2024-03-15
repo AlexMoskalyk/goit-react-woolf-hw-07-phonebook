@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <>
-      <Section>
+      <Section title="Phone Book">
         <Form />
       </Section>
       <Section>

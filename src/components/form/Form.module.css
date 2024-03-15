@@ -1,17 +1,26 @@
 .form {
-  display: flex;
-  flex-direction: column;
-
-  max-width: 350px;
+  margin-bottom: 20px;
 }
 
 .btn {
-  width: 100px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 .label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.label input {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }

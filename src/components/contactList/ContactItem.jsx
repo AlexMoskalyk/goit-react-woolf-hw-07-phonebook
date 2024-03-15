@@ -8,9 +8,9 @@ const ContactItem = ({ contact: { name, phone, id } }) => {
   const dispatch = useDispatch();
   return (
     <li className={css.li}>
-      <p>
+      <span>
         {name}:{phone}
-      </p>
+      </span>
       <button
         type="button"
         className={css.btn}

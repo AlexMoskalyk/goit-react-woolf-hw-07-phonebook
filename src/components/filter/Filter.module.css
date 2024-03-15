@@ -1,3 +1,15 @@
 .filter {
-  width: 305px;
+  margin-bottom: 20px;
+}
+
+.filter label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filter input {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }

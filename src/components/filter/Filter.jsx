@@ -15,7 +15,6 @@ const Filter = () => {
 
   return (
     <fieldset className={css.filter}>
-      <legend className={css.legend}>Quickly find the right contact</legend>
       <label className={css.label}>
         Find contacts by name
         <input
