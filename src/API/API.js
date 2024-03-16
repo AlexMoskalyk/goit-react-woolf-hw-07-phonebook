@@ -8,11 +8,7 @@ export const fetchAllContacts = async () => {
 };
 
 export const createNewContact = async newContact => {
-  const response = await axios.post(BASE_URL, newContact, {
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
+  const response = await axios.post(BASE_URL, newContact);
   return response.data;
 };
 
